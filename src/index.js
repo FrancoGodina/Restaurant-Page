@@ -60,3 +60,5 @@ function createMain() {
 
 container.appendChild(displayHeader());
 container.appendChild(createMain());
+
+loadHome();
