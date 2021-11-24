@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Spectral SC', serif;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.restaurant-name {
+    color: white;
+    font-size: 55px;
+    font-family: 'Spectral SC', serif;
+}
+
+.button {
+    font-size: 25px;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Spectral SC', serif;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.home {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-size: 25px;
+    height: 350px;
+    width: 500px;
+}
+
+.menu {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-size: 20px;
+    height: 725px;
+    width: 500px;
+}
+
+.dish-item img {
+    width: 50%;
+}
+
+.contact {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    font-size: 15px;
+    height: 350px;
+    width: 500px;
+}
